@@ -71,7 +71,7 @@ app.post('/login',async(req,res)=>{
             res.render("profile.ejs",{user})
         }
     } catch (error) {
-        res.send("error occured")
+        // res.send("error occured")
     }
 })
 
